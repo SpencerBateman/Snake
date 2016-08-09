@@ -30,10 +30,18 @@ public class ModelImpl implements Model{
     snake.direction = dir;
   }
 
+  /**
+   * PROGRESSES THE snake one space, checks to see if food is eaten
+   * checks to see if direction changes
+   * updates the rest of the snake
+   * grows the snake if nessesary
+   */
   @Override
   public void updateSnake() {
     //TODO
     // make sure this method gets filled out correctly
+
+
 
 
 
