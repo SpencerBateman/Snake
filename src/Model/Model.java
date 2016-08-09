@@ -23,4 +23,11 @@ public interface Model {
   void setDirect(Direction dir);
 
 
+  /**
+   * Adjusts modifiyers in the board state to reflect the new board state
+   * Updates or progresses the boord state.
+   */
+  void updateSnake();
+
+
 }

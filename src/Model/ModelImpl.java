@@ -9,7 +9,7 @@ public class ModelImpl implements Model{
   private Train snake;
 
 
-  
+
 
 
 
@@ -28,5 +28,14 @@ public class ModelImpl implements Model{
   @Override
   public void setDirect(Direction dir) {
     snake.direction = dir;
+  }
+
+  @Override
+  public void updateSnake() {
+    //TODO
+    // make sure this method gets filled out correctly
+
+
+
   }
 }
