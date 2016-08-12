@@ -15,12 +15,6 @@ public class ModelImpl implements Model{
   }
 
 
-
-
-
-
-
-
   @Override
   public Board getBoard() {
     return this.board;
