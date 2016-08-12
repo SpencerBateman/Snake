@@ -18,5 +18,5 @@ public interface GuiView {
 
   void addMouseListener(MouseListener mouseHandler);
 
-  void tick
+  void tick();
 }
