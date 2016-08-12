@@ -9,9 +9,9 @@ public class ModelImpl implements Model{
   private Train snake;
 
 
-  ModelImpl(Board board, Train train) {
+  ModelImpl(Board board) {
     this.board = board;
-    this.snake = train;
+    this.snake = new Train();
   }
 
 
